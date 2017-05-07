@@ -1,0 +1,148 @@
+#wrapper{background-color:#90C7E3;
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 1px 2px 3px;
+	}
+
+
+body {color: #666666;
+	background-image: url(images/background.jpg);
+	font-family: Veranda, Arial, sans-serif;
+	}
+
+h1	{color: #FFFFFF;
+	background-color: #000033;
+	background-image: url(images/sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 72px;
+	padding-left: 20px;
+	font-family:Georgia, serif;
+	line-height: 200%;
+	margin-bottom: 0;
+	
+
+	}
+
+nav {font-weight: bold;
+	padding-bottom: 0px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-right:5px;
+	float:left;
+	width:160px;
+	
+	
+}
+
+nav a {text-decoration:none;
+
+}
+
+nav a:link	{color:#000033;
+}
+nav a:visited {color:#344873;
+}
+nav a:hover	{color:#FFFFFF;
+}
+nav ul	{list-style-type:none;
+		margin:0;
+		padding-left:0;
+}
+
+
+
+main {padding-right: 20px;
+	padding-left: 20px;
+	background-color:#FFFFFF;
+	margin-left:170px;
+	padding-top:1px;
+	padding-bottom:1px;
+	width:auto;
+	}
+	
+main img {float:left;
+		padding-right:20px;
+		padding-bottom:20px;
+}
+
+main ul	{list-style-position:inside;
+}
+
+.clear	{clear:both;
+}
+
+
+h2	{color: #3399CC;
+	font-family: Georgia, Serif;
+	}
+
+h3	{color:#000033
+
+	}
+
+dt	{color: #000033;
+	font-weight: bold;
+	}
+
+.resort	{color: #000033;
+	font-size: 1.2em;
+	}
+	
+/*Table*********************************************************/
+table	{width:90%;
+		margin:auto;
+		border:1px solid #3399CC;
+		border-collapse:collapse;
+		margin-bottom: 15px;
+}
+
+td,th	{padding:5px;
+		border:1px solid #3399CC ;
+}
+
+td		{text-align:center;
+}
+
+.text	{text-align:left;
+}
+
+tr:nth-of-type(even)	{background-color:#D6EAF2;
+}
+
+/* Table********************************************************/
+
+
+/* Reservations form ********************************************/
+
+label {float:left;
+		display:block;
+		padding-right: 25px;
+}
+
+input, textarea 	{width:8em;
+		display:block;
+		margin-bottom:1em;
+		margin-left:150px;
+}
+
+mySubmit	{margin-left:10px;
+}
+
+/* Reservations form *******************************************/
+
+
+
+footer  {font-size: .70em;
+	font-style: italic;
+	text-align: center;
+	padding:10px;
+	background-color:#FFFFFF;
+	margin-left:170px;
+	}
+
+/*Older browser compatibility*/
+header, nav, main, footer {display:block;}
+
+
